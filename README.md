@@ -34,3 +34,44 @@ Exercício 06
 // PrecoTotal
 // NotaFinal
 // ifce
+
+Exercício 07
+
+const disciplina = "programacao web";
+const quantidadeaulas = 20;
+const estaaprovado = true;
+const observacao = null;
+let mediafinal;
+console.log("disciplina");
+console.log(" quantidadeaulas");
+console.log("estaaprovado");
+console.log("observacao");
+console.log("mediafinal");
+
+Exercício 08
+
+const disciplina = "programacao web";
+const quantidadeaulas = 20;
+const estaaprovado = true;
+const observacao = null;
+let mediafinal;
+console.log(typeof disciplina);
+console.log(typeof quantidadeaulas);
+console.log(typeof estaaprovado);
+console.log(typeof observacao);
+console.log(typeof mediafinal);
+
+Exercício 09
+
+const altura = 1.72;
+const peso = 65;
+console.log("altura");
+console.log("peso");
+
+Exercício 10
+
+const a = "5";
+const b = 5;
+//A minha previsão é que vai aparecer 55 no terminal.
+console.log("a + b");
+// a variável a é um texto e a variável b é do tipo número ai quando colocamos o + ele junta os numeros formando 55.
