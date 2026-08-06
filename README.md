@@ -75,3 +75,29 @@ const b = 5;
 //A minha previsão é que vai aparecer 55 no terminal.
 console.log("a + b");
 // a variável a é um texto e a variável b é do tipo número ai quando colocamos o + ele junta os numeros formando 55.
+
+Exercício 11
+
+let nome = "Ana";
+console.log("Bem-vindo," + nome + "!");
+
+Exercício 12
+
+let nome = "Ana";
+console.log(`Bem-vindo,${nome}!`);
+
+Exercício 13
+
+let frase = "JavaScript é divertido";
+console.log(frase.length);
+console.log(frase.toUpperCase());
+console.log(frase.toLowerCase());
+
+Exercício 14
+
+let nome = "Ana";
+let sobrenome = "Silva";
+let nomecompleto = nome + " " + sobrenome;
+console.log(nomecompleto);
+
+
