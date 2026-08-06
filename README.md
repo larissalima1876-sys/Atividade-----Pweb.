@@ -100,4 +100,49 @@ let sobrenome = "Silva";
 let nomecompleto = nome + " " + sobrenome;
 console.log(nomecompleto);
 
+Exercício 15
 
+let produto = "Caderno";
+let preco = 12.5;
+console.log(`o produto ${produto} custa R$ ${preco}`);
+
+Exercício 16
+
+let numeroa = 10;
+let numerob = 3;
+console.log(numeroa + numerob);
+console.log(numeroa - numerob);
+console.log(numeroa * numerob);
+console.log(numeroa / numerob);
+console.log(numeroa % numerob);
+console.log(numeroa ** numerob);
+
+Exercício 17
+
+let contador = 0;
+contador += 5;
+console.log(contador);
+
+contador *= 3;
+console.log(contador);
+
+contador -= 1;
+console.log(contador);
+
+Exercício 18
+
+// true 
+console.log(10 > 5);
+// false
+console.log(10 < 5);
+// true
+console.log(10 >= 10);
+// false
+console.log(10 <= 9);
+
+Exercício 19
+
+console.log(7=="7");
+console.log(7==="7");
+// o operador == compara apenas o valor 
+// o operador === compara o valor e o tipo
