@@ -146,3 +146,54 @@ console.log(7=="7");
 console.log(7==="7");
 // o operador == compara apenas o valor 
 // o operador === compara o valor e o tipo
+
+Exercício 20
+
+let temcarteira = true;
+let temcombustivel = false;
+console.log(temcarteira && temcombustivel);
+console.log(temcarteira || temcombustivel);
+console.log(!temcarteira);
+
+Exercício 21
+
+let idade = 20;
+if (idade >= 18){
+    console.log("Maior de idade");
+
+} 
+
+Exercício 22
+
+let idade = 20;
+if (idade >= 18){
+    console.log("Maior de idade");
+
+} else {
+    console.log("Menor de idade");
+}
+
+Exercício 22.2
+
+let idade = 15;
+if (idade >= 18){
+    console.log("Maior de idade");
+
+} else {
+    console.log("Menor de idade");
+}
+
+Exercício 23
+
+let nota = 9;
+if (nota >= 7){
+    console.log("aprovado!");
+} else if (nota >=5){
+    console.log("recuperacao");
+} else {
+    console.log("reprovado!");
+}
+
+
+
+
