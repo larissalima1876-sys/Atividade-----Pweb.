@@ -293,4 +293,39 @@ if (idade >= 18 && temIngresso) {
 
 
 
+Exercício 28
+
+let idade = 16;
+console.log(idade);
+// O erro era que "console" estava escrito errado como "console".
+
+Exercício 28.2
+
+const nota = 8;
+
+if (nota == 7) {
+    console.log("Aprovado");
+}
+// O erro era usar "=" no if. Para comparar valores deve-se usar "==" ou "===".
+
+Exercício 28.3
+
+const idade = 20;
+
+if (idade >= 18) {
+    console.log("Pode entrar");
+}
+// O erro era que faltava a chave "}" para fechar o bloco do if.
+
+Exercício 28.4
+
+const nome = "Ana";
+console.log(nome);
+// O código funcionava, mas faltavam os pontos e vírgulas no final das linhas.
+
+Exercício 28.5
+
+const preco = 10;
+console.log(preco);
+// O nome da variável estava com cedilha ("preço"). Nomes de variáveis não devem usar acentos nem caracteres especiais.
 
