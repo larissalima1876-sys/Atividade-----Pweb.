@@ -238,6 +238,59 @@ if (numero % 2 === 0) {
 }
 
 
+Exercício 25
+
+let idade = 16;
+let anoAtual = 2026;
+
+let ano = anoAtual + (18 - idade);
+
+console.log("Voce completa 18 anos em " + ano);
+
+Exercício 26
+
+let senhaCorreta = "ifce2026";
+let senhaDigitada = "ifce2026";
+
+if (senhaDigitada === senhaCorreta) {
+    console.log("Acesso liberado");
+} else {
+    console.log("Senha incorreta");
+}
+
+Exercício 26.2
+
+let senhaCorreta = "ifce2026";
+let senhaDigitada = "ifce2025";
+
+if (senhaDigitada === senhaCorreta) {
+    console.log("Acesso liberado");
+} else {
+    console.log("Senha incorreta");
+}
+
+Exercício 27
+
+let idade = 20;
+let temIngresso = true;
+
+if (idade >= 18 && temIngresso) {
+    console.log("Pode entrar");
+} else {
+    console.log("Nao pode entrar");
+}
+
+Exercício 27.2
+
+let idade = 20;
+let temIngresso = false;
+
+if (idade >= 18 && temIngresso) {
+    console.log("Pode entrar");
+} else {
+    console.log("Nao pode entrar");
+}
+
 
 
 
