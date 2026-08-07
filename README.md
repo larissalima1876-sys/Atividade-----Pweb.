@@ -194,6 +194,50 @@ if (nota >= 7){
     console.log("reprovado!");
 }
 
+Exercício 23.2
+
+let nota = 6;
+if (nota >= 7){
+    console.log("aprovado!");
+} else if (nota >=5){
+    console.log("recuperacao");
+} else {
+    console.log("reprovado!");
+}
+
+
+Exercício 23.3
+
+let nota = 3;
+if (nota >= 7){
+    console.log("aprovado!");
+} else if (nota >=5){
+    console.log("recuperacao");
+} else {
+    console.log("reprovado!");
+}
+
+Exercício 24
+
+let numero = 7;
+
+if (numero % 2 === 0) {
+    console.log("Par");
+} else {
+    console.log("Impar");
+}
+
+Exercício 24.2
+
+let numero = 10;
+
+if (numero % 2 === 0) {
+    console.log("Par");
+} else {
+    console.log("Impar");
+}
+
+
 
 
 
